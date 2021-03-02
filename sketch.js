@@ -1,0 +1,35 @@
+const DISPLAYY = 1024 / 2;
+const DISPLAYX = 1326 / 2;
+
+const PICTURE_SIZE = 100;
+const PICTURE_OFFSET = 130;
+
+let myFont;
+function preload() {
+  //myFont = loadFont('assets/inconsolata.otf');
+}
+
+function setup() {
+  createCanvas(DISPLAYX, DISPLAYY);
+   
+}
+
+function draw() {
+  background(255);
+  fill(0, 102, 153);
+  textSize(34);
+  textAlign(CENTER);
+  text("Drawing App",DISPLAYX / 2 , DISPLAYY/2 -120);
+ 
+  
+  fill(255);
+  rect(DISPLAYX / 2 - PICTURE_SIZE / 2 - PICTURE_OFFSET, DISPLAYY / 2 - PICTURE_SIZE / 2, PICTURE_SIZE, PICTURE_SIZE);
+  rect(DISPLAYX / 2 - PICTURE_SIZE / 2, DISPLAYY / 2 - PICTURE_SIZE / 2, PICTURE_SIZE, PICTURE_SIZE);
+  rect(DISPLAYX / 2 - PICTURE_SIZE / 2 + PICTURE_OFFSET, DISPLAYY / 2 - PICTURE_SIZE / 2, PICTURE_SIZE, PICTURE_SIZE);
+
+  rect(DISPLAYX / 2 - PICTURE_SIZE / 2 - PICTURE_OFFSET, DISPLAYY / 2 - PICTURE_SIZE / 2 + PICTURE_OFFSET, PICTURE_SIZE, PICTURE_SIZE);
+  rect(DISPLAYX / 2 - PICTURE_SIZE / 2, DISPLAYY / 2 - PICTURE_SIZE / 2 + PICTURE_OFFSET, PICTURE_SIZE, PICTURE_SIZE);
+  rect(DISPLAYX / 2 - PICTURE_SIZE / 2 + PICTURE_OFFSET, DISPLAYY / 2 - PICTURE_SIZE / 2 + PICTURE_OFFSET, PICTURE_SIZE, PICTURE_SIZE);
+
+
+}
