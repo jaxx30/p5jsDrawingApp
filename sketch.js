@@ -143,7 +143,7 @@ function draw() {
       button4.hide();
     
       clear();
-      textSize(34);
+      textSize(24);
       textAlign(CENTER);
       text("Pick What You Want to Draw!",DISPLAYX / 2 , DISPLAYY/2 -120);
 
