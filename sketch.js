@@ -129,6 +129,9 @@ function draw() {
   
   if(clicked == true){
       button.hide();
+      button3.hide();
+      button4.hide();
+    
       clear();
       textSize(34);
       textAlign(CENTER);
@@ -153,6 +156,8 @@ function returnToMenu(){
   clicked=false;
   button2.hide();
   button.show();
+  button3.show();
+  button4.show();
 }
 
 function menu1(){
