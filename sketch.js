@@ -25,7 +25,7 @@ function preload() {
  // img1 = loadImage('./Images/how-to-draw-an-elephant.jpg');
    myFont = loadFont('./Fonts/Roboto-Regular.ttf');
 }
-}
+
 
 let button, button2, button3, button4;
 function setup() {
