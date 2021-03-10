@@ -80,6 +80,3 @@ function mousePressed(){
     clicked = true;
 }
 
-function mouseReleased(){
-  clicked = false;
-}
