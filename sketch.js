@@ -1,5 +1,5 @@
-const DISPLAYY = 1024 / 2;
-const DISPLAYX = 1326 / 2;
+const DISPLAYY = 1024 /2;
+const DISPLAYX = 1326 /2 ;
 
 const PICTURE_SIZE = 100;
 const PICTURE_SIZEX = 139;
@@ -50,8 +50,11 @@ function setup() {
   button4.style('border: none');
   button4.style('text-decoration: none');
   button4.style('outline: none');
+  button4.style('transition-duration: 0.4s');
+  
+  
   button4.mouseOver(()=>{
-    button4.style('background-color:rgba(0, 102, 153, .2)');
+    button4.style('background-color:rgba(173,255,47, .2)');
   })
    button4.mouseOut(()=>{
     button4.style('background-color:rgba(0,0,0,0)');
@@ -66,8 +69,11 @@ function setup() {
   button3.style('border: none');
   button3.style('text-decoration: none');
   button3.style('outline: none');
+  button3.style('transition-duration: 0.4s');
+  
+  
   button3.mouseOver(()=>{
-    button3.style('background-color:rgba(0, 102, 153, .2)');
+    button3.style('background-color:rgba(135,206,235, .2)');
   })
    button3.mouseOut(()=>{
     button3.style('background-color:rgba(0,0,0,0)');
@@ -95,8 +101,11 @@ function setup() {
   button.style('border: none');
   button.style('text-decoration: none');
   button.style('outline: none');
+  button.style('transition-duration: 0.4s');
+    
+  
   button.mouseOver(()=>{
-    button.style('background-color:rgba(0, 102, 153,.2)');
+    button.style('background-color:rgba(255, 255, 0,.2)');
   });
    button.mouseOut(()=>{
     button.style('background-color:rgba(0,0,0,0)');
