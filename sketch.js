@@ -23,7 +23,8 @@ function preload() {
   identifyTheObject = loadImage("Matching.png")
   colorInsideTheLines = loadImage("ColorInsideTheLines.png")
  // img1 = loadImage('./Images/how-to-draw-an-elephant.jpg');
-  myFont = loadFont('./Fonts/PatrickHand-Regular.ttf');
+   myFont = loadFont('./Fonts/Roboto-Regular.ttf');
+}
 }
 
 let button, button2, button3, button4;
